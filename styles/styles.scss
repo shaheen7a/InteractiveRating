@@ -1,0 +1,15 @@
+//### Primary
+
+$orange: hsl(25, 97%, 53%);
+
+//### Neutral
+
+$white: hsl(0, 0%, 100%);
+$lightGrey: hsl(217, 12%, 63%);
+$mediumGrey: hsla(216, 12%, 54%, 0.2);
+$darkBlue: hsla(213, 19%, 18%, 0.6);
+$veryDarkBlue: hsl(216, 12%, 8%);
+
+@import "general";
+@import "card";
+@import "media";

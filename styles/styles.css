@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: #121417;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container .card {
+  background-color: rgba(37, 45, 55, 0.6);
+  width: 88%;
+  max-width: 41rem;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+}
+.container .card .star {
+  background-color: rgba(124, 135, 152, 0.2);
+  width: 4rem;
+  height: 4rem;
+  padding: 1.2rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container .card .star img {
+  width: 1.4rem;
+}
+.container .card .title {
+  font-size: 2.4rem;
+  color: white;
+  margin-top: 1.9rem;
+}
+.container .card .paragraph {
+  color: #959eac;
+  font-size: 1.415rem;
+  line-height: 2.2rem;
+  margin-top: 1.2rem;
+}
+.container .card .rating-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container .card .rating-wrapper .rating-btn {
+  color: #959eac;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: rgba(124, 135, 152, 0.2);
+  width: 4.1rem;
+  height: 4.1rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.6rem;
+}
+.container .card .rating-wrapper .rating-btn div {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.container .card .rating-wrapper .rating-btn:hover {
+  background-color: #fb7413;
+  cursor: pointer;
+}
+.container .card .rating-wrapper .rating-btn:hover div {
+  color: white;
+}
+.container .card .rating-wrapper .active {
+  background-color: #959eac;
+}
+.container .card .rating-wrapper .active div {
+  color: white;
+}
+.container .card .submit-btn {
+  background-color: #fb7413;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.5rem;
+  padding: 1.3rem;
+  border-radius: 4rem;
+}
+.container .card .submit-btn div {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+.container .card .submit-btn:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.container .card .submit-btn:hover div {
+  color: #fb7413;
+  font-weight: 700;
+}
+.container .card .card-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .card .card-two img {
+  width: 14.5rem;
+  margin-top: 1rem;
+}
+.container .card .card-two .paragraph {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.container .card .card-two .result {
+  background-color: rgba(124, 135, 152, 0.2);
+  padding: 0.8rem 1.4rem;
+  border-radius: 2rem;
+  margin-top: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+.container .card .card-two .result div {
+  color: #fb7413;
+  font-size: 1.4rem;
+}
+.container .card .hide {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .container .card {
+    padding: 3rem;
+    border-radius: 3rem;
+  }
+  .container .card .star {
+    width: 5rem;
+    height: 5rem;
+  }
+  .container .card .star img {
+    width: 1.7rem;
+  }
+  .container .card .title {
+    margin-top: 3.4rem;
+    font-size: 2.77rem;
+  }
+  .container .card .paragraph {
+    margin-top: 0.9rem;
+    line-height: 2.4rem;
+    font-size: 1.505rem;
+  }
+  .container .card .rating-wrapper .rating-btn {
+    width: 5.1rem;
+    height: 5.1rem;
+    font-size: 1.6rem;
+  }
+  .container .card .rating-wrapper .rating-btn div {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .container .card .submit-btn {
+    margin-top: 3.2rem;
+  }
+}

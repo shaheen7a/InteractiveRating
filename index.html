@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Font  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Styles  -->
+	<link rel="stylesheet" href="./styles/styles.css">
+
+	<title>Rating Component | Frontend Mentor | Challenge</title>
+</head>
+
+<body>
+	<main class="container">
+
+		<div class="card">
+
+			<div class="card-one">
+
+				<div class="star">
+					<img src="./images/icon-star.svg" alt="icon star">
+				</div>
+
+
+				<h1 class="title">How did we do?</h1>
+
+				<div class="paragraph">Please let us know how we did with your
+					support request. All feedback is appreciated to help us
+					improve our offering!</div>
+				<div class="rating-wrapper">
+					<div class="rating-btn">
+						<div>1</div>
+					</div>
+					<div class="rating-btn">
+						<div>2</div>
+					</div>
+					<div class="rating-btn active">
+						<div>3</div>
+					</div>
+					<div class="rating-btn">
+						<div>4</div>
+					</div>
+					<div class="rating-btn">
+						<div>5</div>
+					</div>
+				</div>
+				<div class="submit-btn">
+					<div>submit</div>
+				</div>
+			</div>
+
+
+			<div class="card-two hide">
+				<img src="./images/illustration-thank-you.svg" alt="thank you">
+				<div class="result">
+					<div>You selected <span class="score">4</span> out of 5</div>
+				</div>
+				<h2 class="title">Thank you!</h2>
+				<div class="paragraph">
+					We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
+					touch!
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
